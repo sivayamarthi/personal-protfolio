@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  nav {
+    display: flex;
+  }
+  ol {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+  ol > div {
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #section-1 {
+    height: 390px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #section-1 > div:first-child {
+    border: 2px solid yellow;
+    padding: 50px;
+  
+    width: 75%;
+    background-color: rgb(210, 210, 7);
+  }
+  #section-1 > div:first-child > span {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  #section-1 > div:first-child > h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-style: italic;
+  }
+  div > h1 {
+    margin-top: 10px;
+  }
+  
+  div > h1::first-letter {
+    font-size: 50px;
+    font-style: italic;
+  }
+  #section-1 > div:last-child {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    right: 11%;
+    border: 8px solid aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  #section-1 > div:last-child > div > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 18px;
+    width: 80%;
+  }
+  
+  div > button {
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  nav > ol > li > a {
+    text-decoration: none;
+  }
+  
+  #About {
+    padding: 10px 50px;
+    margin-top: 30px;
+  }
+  
+  #About > h1 {
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #about-me {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #about-me p {
+    font-size: 19px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  #about-me > div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+  }
+  
